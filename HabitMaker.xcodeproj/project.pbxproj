@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E287F1512388C2BE00B97339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1502388C2BE00B97339 /* AppDelegate.swift */; };
+		E287F1532388C2BE00B97339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1522388C2BE00B97339 /* SceneDelegate.swift */; };
+		E287F1552388C2BE00B97339 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1542388C2BE00B97339 /* ContentView.swift */; };
+		E287F1572388C2C100B97339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E287F1562388C2C100B97339 /* Assets.xcassets */; };
+		E287F15A2388C2C100B97339 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E287F1592388C2C100B97339 /* Preview Assets.xcassets */; };
+		E287F15D2388C2C100B97339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E287F15B2388C2C100B97339 /* LaunchScreen.storyboard */; };
+		E287F1682388C2C100B97339 /* HabitMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1672388C2C100B97339 /* HabitMakerTests.swift */; };
+		E287F1732388C2C100B97339 /* HabitMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1722388C2C100B97339 /* HabitMakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E287F1642388C2C100B97339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E287F1452388C2BE00B97339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E287F14C2388C2BE00B97339;
+			remoteInfo = HabitMaker;
+		};
+		E287F16F2388C2C100B97339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E287F1452388C2BE00B97339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E287F14C2388C2BE00B97339;
+			remoteInfo = HabitMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E287F14D2388C2BE00B97339 /* HabitMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E287F1502388C2BE00B97339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E287F1522388C2BE00B97339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E287F1542388C2BE00B97339 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E287F1562388C2C100B97339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E287F1592388C2C100B97339 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E287F15C2388C2C100B97339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E287F15E2388C2C100B97339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E287F1632388C2C100B97339 /* HabitMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E287F1672388C2C100B97339 /* HabitMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitMakerTests.swift; sourceTree = "<group>"; };
+		E287F1692388C2C100B97339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E287F16E2388C2C100B97339 /* HabitMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E287F1722388C2C100B97339 /* HabitMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitMakerUITests.swift; sourceTree = "<group>"; };
+		E287F1742388C2C100B97339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E287F14A2388C2BE00B97339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287F1602388C2C100B97339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287F16B2388C2C100B97339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E287F1442388C2BE00B97339 = {
+			isa = PBXGroup;
+			children = (
+				E287F14F2388C2BE00B97339 /* HabitMaker */,
+				E287F1662388C2C100B97339 /* HabitMakerTests */,
+				E287F1712388C2C100B97339 /* HabitMakerUITests */,
+				E287F14E2388C2BE00B97339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E287F14E2388C2BE00B97339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E287F14D2388C2BE00B97339 /* HabitMaker.app */,
+				E287F1632388C2C100B97339 /* HabitMakerTests.xctest */,
+				E287F16E2388C2C100B97339 /* HabitMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E287F14F2388C2BE00B97339 /* HabitMaker */ = {
+			isa = PBXGroup;
+			children = (
+				E287F1502388C2BE00B97339 /* AppDelegate.swift */,
+				E287F1522388C2BE00B97339 /* SceneDelegate.swift */,
+				E287F1542388C2BE00B97339 /* ContentView.swift */,
+				E287F1562388C2C100B97339 /* Assets.xcassets */,
+				E287F15B2388C2C100B97339 /* LaunchScreen.storyboard */,
+				E287F15E2388C2C100B97339 /* Info.plist */,
+				E287F1582388C2C100B97339 /* Preview Content */,
+			);
+			path = HabitMaker;
+			sourceTree = "<group>";
+		};
+		E287F1582388C2C100B97339 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E287F1592388C2C100B97339 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E287F1662388C2C100B97339 /* HabitMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E287F1672388C2C100B97339 /* HabitMakerTests.swift */,
+				E287F1692388C2C100B97339 /* Info.plist */,
+			);
+			path = HabitMakerTests;
+			sourceTree = "<group>";
+		};
+		E287F1712388C2C100B97339 /* HabitMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E287F1722388C2C100B97339 /* HabitMakerUITests.swift */,
+				E287F1742388C2C100B97339 /* Info.plist */,
+			);
+			path = HabitMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E287F14C2388C2BE00B97339 /* HabitMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E287F1772388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMaker" */;
+			buildPhases = (
+				E287F1492388C2BE00B97339 /* Sources */,
+				E287F14A2388C2BE00B97339 /* Frameworks */,
+				E287F14B2388C2BE00B97339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HabitMaker;
+			productName = HabitMaker;
+			productReference = E287F14D2388C2BE00B97339 /* HabitMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E287F1622388C2C100B97339 /* HabitMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E287F17A2388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMakerTests" */;
+			buildPhases = (
+				E287F15F2388C2C100B97339 /* Sources */,
+				E287F1602388C2C100B97339 /* Frameworks */,
+				E287F1612388C2C100B97339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E287F1652388C2C100B97339 /* PBXTargetDependency */,
+			);
+			name = HabitMakerTests;
+			productName = HabitMakerTests;
+			productReference = E287F1632388C2C100B97339 /* HabitMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E287F16D2388C2C100B97339 /* HabitMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E287F17D2388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMakerUITests" */;
+			buildPhases = (
+				E287F16A2388C2C100B97339 /* Sources */,
+				E287F16B2388C2C100B97339 /* Frameworks */,
+				E287F16C2388C2C100B97339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E287F1702388C2C100B97339 /* PBXTargetDependency */,
+			);
+			name = HabitMakerUITests;
+			productName = HabitMakerUITests;
+			productReference = E287F16E2388C2C100B97339 /* HabitMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E287F1452388C2BE00B97339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "田内　翔太郎";
+				TargetAttributes = {
+					E287F14C2388C2BE00B97339 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E287F1622388C2C100B97339 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E287F14C2388C2BE00B97339;
+					};
+					E287F16D2388C2C100B97339 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E287F14C2388C2BE00B97339;
+					};
+				};
+			};
+			buildConfigurationList = E287F1482388C2BE00B97339 /* Build configuration list for PBXProject "HabitMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E287F1442388C2BE00B97339;
+			productRefGroup = E287F14E2388C2BE00B97339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E287F14C2388C2BE00B97339 /* HabitMaker */,
+				E287F1622388C2C100B97339 /* HabitMakerTests */,
+				E287F16D2388C2C100B97339 /* HabitMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E287F14B2388C2BE00B97339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287F15D2388C2C100B97339 /* LaunchScreen.storyboard in Resources */,
+				E287F15A2388C2C100B97339 /* Preview Assets.xcassets in Resources */,
+				E287F1572388C2C100B97339 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287F1612388C2C100B97339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287F16C2388C2C100B97339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E287F1492388C2BE00B97339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287F1512388C2BE00B97339 /* AppDelegate.swift in Sources */,
+				E287F1532388C2BE00B97339 /* SceneDelegate.swift in Sources */,
+				E287F1552388C2BE00B97339 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287F15F2388C2C100B97339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287F1682388C2C100B97339 /* HabitMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E287F16A2388C2C100B97339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E287F1732388C2C100B97339 /* HabitMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E287F1652388C2C100B97339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E287F14C2388C2BE00B97339 /* HabitMaker */;
+			targetProxy = E287F1642388C2C100B97339 /* PBXContainerItemProxy */;
+		};
+		E287F1702388C2C100B97339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E287F14C2388C2BE00B97339 /* HabitMaker */;
+			targetProxy = E287F16F2388C2C100B97339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E287F15B2388C2C100B97339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E287F15C2388C2C100B97339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E287F1752388C2C100B97339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E287F1762388C2C100B97339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E287F1782388C2C100B97339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HabitMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shotaro.tu13.HabitMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E287F1792388C2C100B97339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HabitMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HabitMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shotaro.tu13.HabitMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E287F17B2388C2C100B97339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shotaro.tu13.HabitMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitMaker.app/HabitMaker";
+			};
+			name = Debug;
+		};
+		E287F17C2388C2C100B97339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitMakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shotaro.tu13.HabitMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HabitMaker.app/HabitMaker";
+			};
+			name = Release;
+		};
+		E287F17E2388C2C100B97339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shotaro.tu13.HabitMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HabitMaker;
+			};
+			name = Debug;
+		};
+		E287F17F2388C2C100B97339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HabitMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.shotaro.tu13.HabitMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HabitMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E287F1482388C2BE00B97339 /* Build configuration list for PBXProject "HabitMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E287F1752388C2C100B97339 /* Debug */,
+				E287F1762388C2C100B97339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E287F1772388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E287F1782388C2C100B97339 /* Debug */,
+				E287F1792388C2C100B97339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E287F17A2388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E287F17B2388C2C100B97339 /* Debug */,
+				E287F17C2388C2C100B97339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E287F17D2388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E287F17E2388C2C100B97339 /* Debug */,
+				E287F17F2388C2C100B97339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E287F1452388C2BE00B97339 /* Project object */;
+}
