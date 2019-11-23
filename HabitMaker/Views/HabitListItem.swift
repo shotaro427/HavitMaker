@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HabitListItem: View {
 
-    var task: HabitItemEntity = HabitItemEntity()
+    @ObservedObject var task: HabitItemEntity = HabitItemEntity()
 
     var body: some View {
         HStack {
@@ -20,24 +20,31 @@ struct HabitListItem: View {
 
             Text("連続: \(task[\.continuosCount]) / 挫折: \(task[\.frustrationCount])")
 
-            Button("達成") {
-                // 達成数を1あげる
-            }
+            Spacer()
+
+            Text("達成")
             .foregroundColor(.black)
             .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
             .background(Color.yellow)
             .cornerRadius(10)
-
-            Button("未達成") {
-                // 達成数を1あげる
+            .onTapGesture {
+                self.task[\.continuosCount] += 1
+                self.task.update()
             }
+
+            Text("未達成")
             .foregroundColor(.black)
             .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
             .background(Color.red)
             .cornerRadius(10)
+            .onTapGesture {
+                self.task[\.frustrationCount] += 1
+                self.task.update()
+            }
 
         }
-        .frame(width: UIScreen.main.bounds.width, alignment: .leading)
+        .padding(.leading, 20)
+        .padding(.trailing, 20)
     }
 }
 

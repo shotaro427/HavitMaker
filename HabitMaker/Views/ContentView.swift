@@ -41,7 +41,7 @@ struct ContentView: View {
                     .listen()
             }
             .navigationBarTitle("習慣一覧")
-            .navigationBarItems(trailing: Button("追加") {
+            .navigationBarItems(trailing: Button("＋") {
                 self.isPresented.toggle()
             })
             .sheet(isPresented: $isPresented, content: {
