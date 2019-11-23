@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9656FDFCCAE4451F2BB070FA /* Pods_HabitMaker_HabitMakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3616E6DE6D6AA37CF3FC34F /* Pods_HabitMaker_HabitMakerUITests.framework */; };
+		C750A722EA745DECFCACBDBA /* Pods_HabitMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0DDA71B1597332F6138BF /* Pods_HabitMaker.framework */; };
 		E287F1512388C2BE00B97339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1502388C2BE00B97339 /* AppDelegate.swift */; };
 		E287F1532388C2BE00B97339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1522388C2BE00B97339 /* SceneDelegate.swift */; };
 		E287F1552388C2BE00B97339 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1542388C2BE00B97339 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 		E287F15D2388C2C100B97339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E287F15B2388C2C100B97339 /* LaunchScreen.storyboard */; };
 		E287F1682388C2C100B97339 /* HabitMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1672388C2C100B97339 /* HabitMakerTests.swift */; };
 		E287F1732388C2C100B97339 /* HabitMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1722388C2C100B97339 /* HabitMakerUITests.swift */; };
+		E287F1812388C58100B97339 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E287F1802388C58100B97339 /* GoogleService-Info.plist */; };
+		EA75D834D64594E7F0D01E4B /* Pods_HabitMakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D54EC625D71510B7AA30007 /* Pods_HabitMakerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D54EC625D71510B7AA30007 /* Pods_HabitMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitMakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E573052C3637779BAE50256 /* Pods-HabitMakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitMakerTests.debug.xcconfig"; path = "Target Support Files/Pods-HabitMakerTests/Pods-HabitMakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B79CEFFC359CB3EA7D2A350 /* Pods-HabitMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitMaker.release.xcconfig"; path = "Target Support Files/Pods-HabitMaker/Pods-HabitMaker.release.xcconfig"; sourceTree = "<group>"; };
+		4052CDF94D7F214964FFA486 /* Pods-HabitMaker-HabitMakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitMaker-HabitMakerUITests.debug.xcconfig"; path = "Target Support Files/Pods-HabitMaker-HabitMakerUITests/Pods-HabitMaker-HabitMakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B0DDA71B1597332F6138BF /* Pods_HabitMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3616E6DE6D6AA37CF3FC34F /* Pods_HabitMaker_HabitMakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitMaker_HabitMakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA46932C29C8474442F32B91 /* Pods-HabitMakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitMakerTests.release.xcconfig"; path = "Target Support Files/Pods-HabitMakerTests/Pods-HabitMakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEE4E6CB85BC28CB37F13A9C /* Pods-HabitMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitMaker.debug.xcconfig"; path = "Target Support Files/Pods-HabitMaker/Pods-HabitMaker.debug.xcconfig"; sourceTree = "<group>"; };
 		E287F14D2388C2BE00B97339 /* HabitMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E287F1502388C2BE00B97339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E287F1522388C2BE00B97339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		E287F16E2388C2C100B97339 /* HabitMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E287F1722388C2C100B97339 /* HabitMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitMakerUITests.swift; sourceTree = "<group>"; };
 		E287F1742388C2C100B97339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E287F1802388C58100B97339 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF33A29708B4901777486917 /* Pods-HabitMaker-HabitMakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitMaker-HabitMakerUITests.release.xcconfig"; path = "Target Support Files/Pods-HabitMaker-HabitMakerUITests/Pods-HabitMaker-HabitMakerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C750A722EA745DECFCACBDBA /* Pods_HabitMaker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA75D834D64594E7F0D01E4B /* Pods_HabitMakerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9656FDFCCAE4451F2BB070FA /* Pods_HabitMaker_HabitMakerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A54A51C7F8ABE020CCBC0554 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4E6CB85BC28CB37F13A9C /* Pods-HabitMaker.debug.xcconfig */,
+				3B79CEFFC359CB3EA7D2A350 /* Pods-HabitMaker.release.xcconfig */,
+				4052CDF94D7F214964FFA486 /* Pods-HabitMaker-HabitMakerUITests.debug.xcconfig */,
+				EF33A29708B4901777486917 /* Pods-HabitMaker-HabitMakerUITests.release.xcconfig */,
+				1E573052C3637779BAE50256 /* Pods-HabitMakerTests.debug.xcconfig */,
+				CA46932C29C8474442F32B91 /* Pods-HabitMakerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7C260FF8727583AB7145FF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B0DDA71B1597332F6138BF /* Pods_HabitMaker.framework */,
+				B3616E6DE6D6AA37CF3FC34F /* Pods_HabitMaker_HabitMakerUITests.framework */,
+				0D54EC625D71510B7AA30007 /* Pods_HabitMakerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E287F1442388C2BE00B97339 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				E287F1662388C2C100B97339 /* HabitMakerTests */,
 				E287F1712388C2C100B97339 /* HabitMakerUITests */,
 				E287F14E2388C2BE00B97339 /* Products */,
+				A54A51C7F8ABE020CCBC0554 /* Pods */,
+				D7C260FF8727583AB7145FF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +147,7 @@
 				E287F1562388C2C100B97339 /* Assets.xcassets */,
 				E287F15B2388C2C100B97339 /* LaunchScreen.storyboard */,
 				E287F15E2388C2C100B97339 /* Info.plist */,
+				E287F1802388C58100B97339 /* GoogleService-Info.plist */,
 				E287F1582388C2C100B97339 /* Preview Content */,
 			);
 			path = HabitMaker;
@@ -143,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E287F1772388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMaker" */;
 			buildPhases = (
+				E462475FC1B2DFE63AEA9667 /* [CP] Check Pods Manifest.lock */,
 				E287F1492388C2BE00B97339 /* Sources */,
 				E287F14A2388C2BE00B97339 /* Frameworks */,
 				E287F14B2388C2BE00B97339 /* Resources */,
+				3A774B67087289308B6CD632 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E287F17A2388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMakerTests" */;
 			buildPhases = (
+				E70D009F2CECEE7C426C1BA3 /* [CP] Check Pods Manifest.lock */,
 				E287F15F2388C2C100B97339 /* Sources */,
 				E287F1602388C2C100B97339 /* Frameworks */,
 				E287F1612388C2C100B97339 /* Resources */,
@@ -178,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E287F17D2388C2C100B97339 /* Build configuration list for PBXNativeTarget "HabitMakerUITests" */;
 			buildPhases = (
+				ABAD381CF5EEAEC594DFCAF6 /* [CP] Check Pods Manifest.lock */,
 				E287F16A2388C2C100B97339 /* Sources */,
 				E287F16B2388C2C100B97339 /* Frameworks */,
 				E287F16C2388C2C100B97339 /* Resources */,
+				CF5277BB474DDB4A684C264A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E287F15D2388C2C100B97339 /* LaunchScreen.storyboard in Resources */,
+				E287F1812388C58100B97339 /* GoogleService-Info.plist in Resources */,
 				E287F15A2388C2C100B97339 /* Preview Assets.xcassets in Resources */,
 				E287F1572388C2C100B97339 /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +310,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A774B67087289308B6CD632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitMaker/Pods-HabitMaker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitMaker/Pods-HabitMaker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HabitMaker/Pods-HabitMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAD381CF5EEAEC594DFCAF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabitMaker-HabitMakerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5277BB474DDB4A684C264A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitMaker-HabitMakerUITests/Pods-HabitMaker-HabitMakerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitMaker-HabitMakerUITests/Pods-HabitMaker-HabitMakerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HabitMaker-HabitMakerUITests/Pods-HabitMaker-HabitMakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E462475FC1B2DFE63AEA9667 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabitMaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70D009F2CECEE7C426C1BA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabitMakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E287F1492388C2BE00B97339 /* Sources */ = {
@@ -432,6 +584,7 @@
 		};
 		E287F1782388C2C100B97339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE4E6CB85BC28CB37F13A9C /* Pods-HabitMaker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +604,7 @@
 		};
 		E287F1792388C2C100B97339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B79CEFFC359CB3EA7D2A350 /* Pods-HabitMaker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +624,7 @@
 		};
 		E287F17B2388C2C100B97339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E573052C3637779BAE50256 /* Pods-HabitMakerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +646,7 @@
 		};
 		E287F17C2388C2C100B97339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA46932C29C8474442F32B91 /* Pods-HabitMakerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +668,7 @@
 		};
 		E287F17E2388C2C100B97339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4052CDF94D7F214964FFA486 /* Pods-HabitMaker-HabitMakerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +688,7 @@
 		};
 		E287F17F2388C2C100B97339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF33A29708B4901777486917 /* Pods-HabitMaker-HabitMakerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
