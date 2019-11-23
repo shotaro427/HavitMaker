@@ -20,6 +20,7 @@
 		E287F1812388C58100B97339 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E287F1802388C58100B97339 /* GoogleService-Info.plist */; };
 		E287F1852388C92000B97339 /* HabitListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1842388C92000B97339 /* HabitListItem.swift */; };
 		E287F1872388D0DA00B97339 /* HabitItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1862388D0DA00B97339 /* HabitItemEntity.swift */; };
+		E287F1892388E08F00B97339 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287F1882388E08F00B97339 /* NewTaskView.swift */; };
 		EA75D834D64594E7F0D01E4B /* Pods_HabitMakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D54EC625D71510B7AA30007 /* Pods_HabitMakerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		E287F1802388C58100B97339 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E287F1842388C92000B97339 /* HabitListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListItem.swift; sourceTree = "<group>"; };
 		E287F1862388D0DA00B97339 /* HabitItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItemEntity.swift; sourceTree = "<group>"; };
+		E287F1882388E08F00B97339 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 		EF33A29708B4901777486917 /* Pods-HabitMaker-HabitMakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitMaker-HabitMakerUITests.release.xcconfig"; path = "Target Support Files/Pods-HabitMaker-HabitMakerUITests/Pods-HabitMaker-HabitMakerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,6 +199,7 @@
 			children = (
 				E287F1542388C2BE00B97339 /* ContentView.swift */,
 				E287F1842388C92000B97339 /* HabitListItem.swift */,
+				E287F1882388E08F00B97339 /* NewTaskView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				E287F1852388C92000B97339 /* HabitListItem.swift in Sources */,
 				E287F1872388D0DA00B97339 /* HabitItemEntity.swift in Sources */,
 				E287F1532388C2BE00B97339 /* SceneDelegate.swift in Sources */,
+				E287F1892388E08F00B97339 /* NewTaskView.swift in Sources */,
 				E287F1552388C2BE00B97339 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

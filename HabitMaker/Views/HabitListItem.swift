@@ -18,7 +18,7 @@ struct HabitListItem: View {
             Text(task[\.title])
                 .font(.title)
 
-            Text("\(task[\.continuosCount]) / \(task[\.frustrationCount])")
+            Text("連続: \(task[\.continuosCount]) / 挫折: \(task[\.frustrationCount])")
 
             Button("達成") {
                 // 達成数を1あげる

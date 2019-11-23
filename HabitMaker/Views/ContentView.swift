@@ -14,6 +14,7 @@ import Ballcap
  */
 struct ContentView: View {
 
+    @State var isPresented: Bool = false
     @State var tasks: [HabitItemEntity] = []
 
     let dataSource: DataSource<HabitItemEntity> = HabitItemEntity.order(by: "updatedAt").limit(to: 30).dataSource()
@@ -25,7 +26,6 @@ struct ContentView: View {
                     HabitListItem(task: task)
                 }
             }
-            .navigationBarTitle("習慣一覧")
             .onAppear() {
                 // 監視スタート
                 self.dataSource
@@ -40,6 +40,13 @@ struct ContentView: View {
                     })
                     .listen()
             }
+            .navigationBarTitle("習慣一覧")
+            .navigationBarItems(trailing: Button("追加") {
+                self.isPresented.toggle()
+            })
+            .sheet(isPresented: $isPresented, content: {
+                NewTaskView()
+            })
         }
     }
 }
